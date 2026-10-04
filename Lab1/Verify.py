@@ -40,4 +40,4 @@ else:
 with open("matrix_results.txt", "a", encoding="utf-8") as out:
     out.write("\n" + status_text + "\n")
 
-print("отработалоаооаоа")
+print("отработала штатно")
