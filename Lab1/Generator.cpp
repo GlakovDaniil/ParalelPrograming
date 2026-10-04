@@ -1,8 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <random>
-#include <iomanip>
+import std;
 
 using namespace std;
 
@@ -13,7 +9,7 @@ int main() {
     mt19937 gen(rd());
     uniform_real_distribution<double> dis(1.0, 50.0);
 
-    // cоздаем одну большую матрицу на 2*N строк
+    // cоздаем одну большую матрицу N на 2*N строк
     vector<vector<double>> big_matrix(2 * N, vector<double>(N));
 
     for (int i = 0; i < 2 * N; ++i) {
